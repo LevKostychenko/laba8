@@ -1,0 +1,157 @@
+﻿  pch.cpp
+  Coach.cpp
+c:\users\asus\desktop\laba\labwork5\texttable.h(47): warning C4018: '<': signed/unsigned mismatch
+  DumpTrack.cpp
+c:\users\asus\desktop\laba\labwork5\texttable.h(47): warning C4018: '<': signed/unsigned mismatch
+  Exception.cpp
+  FreightVehicle.cpp
+c:\users\asus\desktop\laba\labwork5\texttable.h(47): warning C4018: '<': signed/unsigned mismatch
+  GarbageTruck.cpp
+c:\users\asus\desktop\laba\labwork5\texttable.h(47): warning C4018: '<': signed/unsigned mismatch
+  InputException.cpp
+  InputValidator.cpp
+  LabWork5.cpp
+c:\users\asus\desktop\laba\labwork5\texttable.h(47): warning C4018: '<': signed/unsigned mismatch
+  List.cpp
+  ListAlgoritms.cpp
+  ListInterface.cpp
+  Menu.cpp
+c:\users\asus\desktop\laba\labwork5\texttable.h(47): warning C4018: '<': signed/unsigned mismatch
+c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): error C2446: '==': no conversion from 'const char *' to 'T'
+          with
+          [
+              T=int
+          ]
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): note: There is no context in which this conversion is possible
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(24): note: while compiling class template member function 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)'
+          with
+          [
+              T=int
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(111): note: see reference to function template instantiation 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(103): note: see reference to class template instantiation 'ListAlgoritms<T>' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(18): note: while compiling class template member function 'void ListInterface<int>::ChouseAction(void)'
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(37): note: see reference to function template instantiation 'void ListInterface<int>::ChouseAction(void)' being compiled
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(36): note: see reference to class template instantiation 'ListInterface<int>' being compiled
+c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): error C2446: '==': no conversion from 'const char *' to 'int'
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): note: There is no context in which this conversion is possible
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(24): note: while compiling class template member function 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)'
+          with
+          [
+              T=char
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(111): note: see reference to function template instantiation 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)' being compiled
+          with
+          [
+              T=char
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(103): note: see reference to class template instantiation 'ListAlgoritms<T>' being compiled
+          with
+          [
+              T=char
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(18): note: while compiling class template member function 'void ListInterface<char>::ChouseAction(void)'
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(43): note: see reference to function template instantiation 'void ListInterface<char>::ChouseAction(void)' being compiled
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(42): note: see reference to class template instantiation 'ListInterface<char>' being compiled
+c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): error C2678: binary '==': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=DumpTrack
+          ]
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): note: could be 'built-in C++ operator==(const char *, const char *)'
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): note: while trying to match the argument list '(T, const char *)'
+          with
+          [
+              T=DumpTrack
+          ]
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(24): note: while compiling class template member function 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)'
+          with
+          [
+              T=DumpTrack
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(111): note: see reference to function template instantiation 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)' being compiled
+          with
+          [
+              T=DumpTrack
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(103): note: see reference to class template instantiation 'ListAlgoritms<T>' being compiled
+          with
+          [
+              T=DumpTrack
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(18): note: while compiling class template member function 'void ListInterface<DumpTrack>::ChouseAction(void)'
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(55): note: see reference to function template instantiation 'void ListInterface<DumpTrack>::ChouseAction(void)' being compiled
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(54): note: see reference to class template instantiation 'ListInterface<DumpTrack>' being compiled
+c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): error C2678: binary '==': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=GarbageTruck
+          ]
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): note: could be 'built-in C++ operator==(const char *, const char *)'
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): note: while trying to match the argument list '(T, const char *)'
+          with
+          [
+              T=GarbageTruck
+          ]
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(24): note: while compiling class template member function 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)'
+          with
+          [
+              T=GarbageTruck
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(111): note: see reference to function template instantiation 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)' being compiled
+          with
+          [
+              T=GarbageTruck
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(103): note: see reference to class template instantiation 'ListAlgoritms<T>' being compiled
+          with
+          [
+              T=GarbageTruck
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(18): note: while compiling class template member function 'void ListInterface<GarbageTruck>::ChouseAction(void)'
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(61): note: see reference to function template instantiation 'void ListInterface<GarbageTruck>::ChouseAction(void)' being compiled
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(60): note: see reference to class template instantiation 'ListInterface<GarbageTruck>' being compiled
+c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): error C2678: binary '==': no operator found which takes a left-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=TrolleyBus
+          ]
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): note: could be 'built-in C++ operator==(const char *, const char *)'
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(28): note: while trying to match the argument list '(T, const char *)'
+          with
+          [
+              T=TrolleyBus
+          ]
+  c:\users\asus\desktop\laba\labwork5\listalgoritms.cpp(24): note: while compiling class template member function 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)'
+          with
+          [
+              T=TrolleyBus
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(111): note: see reference to function template instantiation 'int ListAlgoritms<T>::Find(iterator<ListNode<T>,T> &,List<T>,const char *)' being compiled
+          with
+          [
+              T=TrolleyBus
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(103): note: see reference to class template instantiation 'ListAlgoritms<T>' being compiled
+          with
+          [
+              T=TrolleyBus
+          ]
+  c:\users\asus\desktop\laba\labwork5\listinterface.cpp(18): note: while compiling class template member function 'void ListInterface<TrolleyBus>::ChouseAction(void)'
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(67): note: see reference to function template instantiation 'void ListInterface<TrolleyBus>::ChouseAction(void)' being compiled
+  c:\users\asus\desktop\laba\labwork5\menu.cpp(66): note: see reference to class template instantiation 'ListInterface<TrolleyBus>' being compiled
+  PassengerVehicle.cpp
+c:\users\asus\desktop\laba\labwork5\texttable.h(47): warning C4018: '<': signed/unsigned mismatch
+  TrolleyBus.cpp
+c:\users\asus\desktop\laba\labwork5\texttable.h(47): warning C4018: '<': signed/unsigned mismatch
+  Vehicle.cpp
+c:\users\asus\desktop\laba\labwork5\texttable.h(47): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
